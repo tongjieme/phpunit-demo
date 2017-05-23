@@ -10,4 +10,4 @@ php:
 install:
   - composer install --no-dev --quiet
 script:
-  - vendor/bin/phpunit -c phpunit.xml --coverage-text
+  - ./vendor/bin/phpunit -c phpunit.xml --coverage-text
