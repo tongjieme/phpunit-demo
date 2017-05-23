@@ -15,7 +15,7 @@ class Animal
      */
     public function getName()
     {
-        return $this->name . "test";
+        return $this->name;
     }
 
     /**
